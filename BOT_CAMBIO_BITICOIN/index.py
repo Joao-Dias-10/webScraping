@@ -7,11 +7,8 @@ from selenium.webdriver.common.keys import Keys
 # Validar a presença de qualquer elemento
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import time
-import os
 import mysql.connector
 from  mysql.connector import Error
-import win32com.client as client
 
 
 def webScraping():
