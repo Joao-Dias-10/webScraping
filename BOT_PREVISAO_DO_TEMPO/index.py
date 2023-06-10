@@ -27,9 +27,9 @@ def webScraping():
         driver.get('https://weather.com/weather/today/l/-12.25,-38.96?par=google')   
 
         # Escreve cidade específica
-        WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'LocationSearch_input'))).click()
-        time.sleep(3)
-        WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.ID, 'LocationSearch_input'))).send_keys('Feira de Santana, Bahia, Brazil')
+        WebDriverWait(driver, 50).until(EC.visibility_of_element_located((By.ID, 'LocationSearch_input'))).click()
+        time.sleep(10)
+        WebDriverWait(driver, 50).until(EC.visibility_of_element_located((By.ID, 'LocationSearch_input'))).send_keys('Feira de Santana, Bahia, Brazil')
         time.sleep(3)
         action.key_down(Keys.ENTER).perform()
         time.sleep(3)

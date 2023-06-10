@@ -2,6 +2,7 @@ import pandas as pd
 import os
 
 def analiseDeDados():
+            
             dir = os.getcwd()
             df = pd.read_excel(rf'{dir}/ANALISE_DE_DADOS/uploads/dados_funcionarios.xlsx')
             coluna = df['Funcionário']
