@@ -30,7 +30,7 @@ Demonstrar, de forma prática e direta, a potência e as funcionalidades do **Se
    ```bash
    git clone https://github.com/Joao-Dias-10/SEU_REPOSITORIO_BOT.git
    cd SEU_REPOSITORIO_BOT
-````
+   ```
 
 2. **Instale as dependências**
 
